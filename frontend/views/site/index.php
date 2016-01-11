@@ -30,7 +30,8 @@ function buttonPressed(el) {
         if (data == "") {
             alert("Внимание! Проект не имеет ссылок!");
         } else {
-            alert("Переход по ссылке : " + data);
+            document.location.href = " + data + ";
+            //alert("Переход по ссылке : " + data);
         }
     })
     .fail(function(data) {

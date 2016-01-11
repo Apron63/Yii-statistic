@@ -88,7 +88,8 @@ class SiteController extends Controller
         $model = Stream::find()->where(['pr_id' => $id])->orderBy('st_cnt')->one();
         if (!$model) return false;
         Stream::addCounter($model->st_id);
-        return $model->st_name . '-' . $model->st_cnt;
+        header("Location:" . $model->st_url);
+        //return $model->st_url;
     }
 
     /**

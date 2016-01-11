@@ -1,0 +1,7 @@
+Админская часть
+login - admin
+пароль - 123qwe
+http://apron63.zz.vc/Site/projects/advstreams/backend/web 
+
+Для тестирования
+http://apron63.zz.vc/Site/projects/advstreams/frontend/web
